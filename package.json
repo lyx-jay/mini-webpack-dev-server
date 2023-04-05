@@ -1,0 +1,22 @@
+{
+  "name": "mini-webpack-dev-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node ./src/script.js",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "html-webpack-plugin": "^5.5.0",
+    "memory-fs": "^0.5.0",
+    "mime": "^3.0.0",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
+    "webpack": "^5.76.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}
